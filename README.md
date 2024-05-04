@@ -1,4 +1,18 @@
-# any2text-parser
+# py-any2text-parser
+
+## install
+
+`pip install py-any2text-parser`
+
+## usage
+
+```
+
+```
+
+
+
+# developer only below:
 
 ## initialize
 
@@ -31,4 +45,12 @@ with open(file_path, "rb") as file:
   )
   
   print(text_data, text)
+```
+
+## develop - upload to pypi
+
+```
+pip install twine build
+python3 -m build
+twine upload dist/*
 ```

@@ -1,6 +1,6 @@
 [project]
 name = "py-any2text-parser"
-version = "1.0.0"
+version = "1.0.1"
 description = "Any2Text - any format to text using Unstructured.io"
 authors = [
 	{ name="Vanson Leung", email="vanson@vanportdev.com" },
