@@ -1,7 +1,7 @@
 import cv2
 print(cv2.__version__)
 
-from pdf2text.pdf2text import extract_pdf_file_to_text
+from src.pdf2text.pdf2text import extract_pdf_file_to_text
 
 file_path = "/Users/user/Downloads/AUDIT_MATERIALS/budget_materials/personal/2021/2021 03 remarks 2.pdf"
   
